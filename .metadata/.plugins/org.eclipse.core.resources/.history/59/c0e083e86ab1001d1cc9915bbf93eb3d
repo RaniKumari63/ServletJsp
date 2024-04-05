@@ -1,0 +1,9 @@
+<%@page buffer=52kb autoFlush="false"%>
+<%
+for(int i=0;i<100000000;i++)
+{
+	out.println("rama");
+	
+
+}
+%>

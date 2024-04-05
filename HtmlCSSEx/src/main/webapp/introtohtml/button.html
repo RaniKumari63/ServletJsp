@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+
+<style>
+.button{
+background-color:#4caf50;
+border:none;
+color:white;
+padding:15px 32px;
+text-align:center;
+text-decoration:none;
+display:inline-block;
+font-size:16px;
+margin:4px 2px;
+cursor:pointer;
+display:block;
+}
+.button1
+{
+background-color: #008cba;
+font-size:10px;
+padding:10px 24px;
+border-radius:2px;
+transition-duration:0.4s;
+width:250px;
+
+
+}
+.button1:hover
+{
+background-color:#4caf50;
+color:white;
+width:50%;
+}
+
+.button2
+{
+ background-color:#f44336;
+font-size:12px;
+padding:12px 28px;
+border-radius:12px;
+box-shadow:0 8px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+width:100%;
+}
+ .button3
+{
+ background-color: #e7e7e7; color:black;
+font-size:16px;
+padding:14px 40px;
+border-radius:50%;
+float:left;
+border:1px solid green;
+}
+
+.button4{
+
+background-color: white;
+color:black;
+border:2px solid #4caf50;
+}
+.button4:hover
+{
+
+ box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+ 
+}
+.disabled
+{
+opacity: 0.6;
+  cursor: not-allowed;
+}
+
+</style>
+</head>
+<body>
+<button type="button" class="button" autoFocus onclick="alert('Hello world')">Click me!</button>
+<button type="button" class="button1" disabled>Click Me!</button>
+
+
+<form action="./hello.html" method="get" id="form1">
+<label for="fname">First name:</label>
+<input type="text" id="fname" name="fname"><br><br>
+<label for="lname">Last name:</label>
+<input type="text" id="lname" name="lname">
+
+<button type="submit" class="button3" form="form1" value="Submit">Submit</button>
+<button type="submit" class="button4" formaction="./hai.html ">Submit to another</button>
+<button type="submit" formtarget="_blank">Submit to a new window</button>
+<button type="submit" formtarget="_self">Submit to a new window</button>
+<button type="submit" formtarget="_parent">Submit to a new window</button>
+<button type="submit" value="Submit">Submit</button>
+  <button type="reset" value="Reset">Reset</button>
+</form>
+
+<!-- Html element -- button,paragraph 
+     htmltag 
+     html attribute  
+
+
+-->
+</body>
+</html>

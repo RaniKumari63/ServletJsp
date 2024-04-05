@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<!DOCTYPE web-app PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+                         "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+ <display-name>Archetype Created Web Application</display-name>
+ <servlet>
+  <servlet-name>AddStudentServlet</servlet-name>
+  <display-name>AddStudentServlet</display-name>
+  <servlet-class>com.suchiit.controller.AddStudentServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>AddCourseServlet</servlet-name>
+  <display-name>AddCourseServlet</display-name>
+  <servlet-class>com.suchiit.controller.AddCourseServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ViewStudentServlet</servlet-name>
+  <display-name>ViewStudentServlet</display-name>
+  <servlet-class>com.suchiit.controller.ViewStudentServlet</servlet-class>
+ </servlet>
+ <servlet>
+  <servlet-name>ViewStudentSpecificServlet</servlet-name>
+  <display-name>ViewStudentSpecificServlet</display-name>
+  <servlet-class>com.suchiit.controller.ViewStudentSpecificServlet</servlet-class>
+ </servlet>
+ <servlet-mapping>
+  <servlet-name>AddStudentServlet</servlet-name>
+  <url-pattern>/addstudent</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>AddCourseServlet</servlet-name>
+  <url-pattern>/addcourse</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ViewStudentServlet</servlet-name>
+  <url-pattern>/viewstudent</url-pattern>
+ </servlet-mapping>
+ <servlet-mapping>
+  <servlet-name>ViewStudentSpecificServlet</servlet-name>
+  <url-pattern>/viewone</url-pattern>
+ </servlet-mapping>
+ <welcome-file-list>
+  <welcome-file>/mainfile.jsp</welcome-file>
+ </welcome-file-list>
+</web-app>

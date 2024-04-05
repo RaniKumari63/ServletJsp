@@ -1,0 +1,12 @@
+127.0.0.1 - - [19/Feb/2023:15:33:47 -0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:15:33:53 -0700] "GET /ServletFilter2/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:15:33:53 -0700] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:15:34:12 -0700] "GET /ServletFilter2/studentform.html HTTP/1.1" 200 612
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:15:34:58 -0700] "GET /ServletFilter2/filter?sname=eee&sage=6&saddr=hhj HTTP/1.1" 200 199
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:15:35:20 -0700] "GET /ServletFilter2/filter?sname=eee&sage=7&saddr=nmmn HTTP/1.1" 200 199
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:15:36:59 -0700] "GET /ServletFilter2/ HTTP/1.1" 200 57
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:15:37:08 -0700] "GET /ServletFilter2/filter?sname=eee&sage=7&saddr=nmmn HTTP/1.1" 200 199
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:15:37:33 -0700] "GET /ServletFilter2/filter?sname=rani&sage=7&saddr=hyd HTTP/1.1" 200 199
+127.0.0.1 - - [19/Feb/2023:17:12:22 -0700] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:17:12:26 -0700] "GET /ServletFilter/ HTTP/1.1" 404 769
+0:0:0:0:0:0:0:1 - - [19/Feb/2023:17:12:26 -0700] "GET /favicon.ico HTTP/1.1" 404 762

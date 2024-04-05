@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="C:\Users\neral\eclipse-workspace1\StudentCourseMVC"/>
+			<item value="C:\Users\neral\eclipse-workspace1\JavaScipt\src\main\webapp\firstJs.js"/>
+			<item value="C:\Users\neral\eclipse-workspace1\HtmlCSSEx"/>
+			<item value="C:\Users\neral\eclipse-workspace1\UserProductJSpDB"/>
+			<item value="C:\Users\neral\eclipse-workspace1\JspEx6"/>
+			<item value="C:\Users\neral\eclipse-workspace1\FifthJspEx5"/>
+			<item value="C:\Users\neral\eclipse-workspace1\FourJspEx4"/>
+			<item value="C:\Users\neral\eclipse-workspace1\ThirdJspEx3"/>
+			<item value="C:\Users\neral\eclipse-workspace1\Servlet1"/>
+			<item value="C:\Users\neral\eclipse-workspace1\ServletFilter"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item key="catalog" value="internal"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="com.suchiit.JspDemo"/>
+			<item value="com.suchiit.JSTLEx1"/>
+			<item value="com.suchiit.StudentCourseMVC"/>
+			<item value="com.suchiit.JavaScipt"/>
+			<item value="com.suchiit.JspEx7"/>
+			<item value="com.suchiit.UserProductJSpDB"/>
+			<item value="com.suchiit.JspEx6"/>
+			<item value="com.suchiit.FifthJspEx5"/>
+			<item value="com.suchiit.FourJspEx4"/>
+			<item value="com.suchiit.ThirdJspEx3"/>
+			<item value="com.suchiit.HtmlCSSEx"/>
+			<item value="com.suchiit.ServletFilter2"/>
+			<item value="com.suchiit.Servlet1"/>
+			<item value="com.suchiit.ServletFilter"/>
+		</list>
+		<list key="groupId">
+			<item value="com.suchiit"/>
+		</list>
+		<list key="artifactId">
+			<item value="JspDemo"/>
+			<item value="JSTLEx1"/>
+			<item value="StudentCourseMVC"/>
+			<item value="JavaScipt"/>
+			<item value="JspEx7"/>
+			<item value="UserProductJSpDB"/>
+			<item value="JspEx6"/>
+			<item value="FifthJspEx5"/>
+			<item value="FourJspEx4"/>
+			<item value="ThirdJspEx3"/>
+			<item value="HtmlCSSEx"/>
+			<item value="ServletFilter2"/>
+			<item value="Servlet1"/>
+			<item value="ServletFilter"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+</section>
